@@ -1,0 +1,17 @@
+{
+  "name": "decisoes-abertas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Compare alternativas por critérios e pesos e preserve o raciocínio da sua decisão.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs",
+    "test": "node --test",
+    "check": "node scripts/check.mjs"
+  },
+  "devDependencies": {"fake-indexeddb": "6.2.7", "linkedom": "0.18.15"}
+}

@@ -1,0 +1,11 @@
+* text=auto
+*.mjs text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+# Preserve the exported CSV bytes, including RFC4180 line endings.
+examples/*.csv -text whitespace=cr-at-eol
+# Preserve the original bundled license notice verbatim.
+assets/LATO-LICENSE.txt -text whitespace=-blank-at-eol

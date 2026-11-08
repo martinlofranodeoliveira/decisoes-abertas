@@ -1,0 +1,13 @@
+comparacao,alternativa,criterio,peso,nota,observacao
+"Um espaço para trabalhar","Estúdio Norte","Concentração",40,5,""
+"Um espaço para trabalhar","Estúdio Norte","Acesso",25,3,""
+"Um espaço para trabalhar","Estúdio Norte","Estrutura",20,4,""
+"Um espaço para trabalhar","Estúdio Norte","Flexibilidade",15,3,""
+"Um espaço para trabalhar","Sala Jardim","Concentração",40,4,""
+"Um espaço para trabalhar","Sala Jardim","Acesso",25,5,"Nota fictícia para demonstrar a observação de uma célula."
+"Um espaço para trabalhar","Sala Jardim","Estrutura",20,3,""
+"Um espaço para trabalhar","Sala Jardim","Flexibilidade",15,4,""
+"Um espaço para trabalhar","Espaço Central","Concentração",40,3,""
+"Um espaço para trabalhar","Espaço Central","Acesso",25,4,""
+"Um espaço para trabalhar","Espaço Central","Estrutura",20,5,""
+"Um espaço para trabalhar","Espaço Central","Flexibilidade",15,5,""

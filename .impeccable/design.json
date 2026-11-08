@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-08T10:55:00.588877Z",
+  "title": "Design System: Decisões Abertas",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinta fria",
+        "tonalRamp": [
+          "oklch(15.00% 0.02752 259.96)",
+          "oklch(26.43% 0.02752 259.96)",
+          "oklch(37.86% 0.02752 259.96)",
+          "oklch(49.29% 0.02752 259.96)",
+          "oklch(60.71% 0.02752 259.96)",
+          "oklch(72.14% 0.02752 259.96)",
+          "oklch(83.57% 0.02752 259.96)",
+          "oklch(95.00% 0.02752 259.96)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Tinta secundária",
+        "tonalRamp": [
+          "oklch(15.00% 0.02898 257.68)",
+          "oklch(26.43% 0.02898 257.68)",
+          "oklch(37.86% 0.02898 257.68)",
+          "oklch(49.29% 0.02898 257.68)",
+          "oklch(60.71% 0.02898 257.68)",
+          "oklch(72.14% 0.02898 257.68)",
+          "oklch(83.57% 0.02898 257.68)",
+          "oklch(95.00% 0.02898 257.68)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Rosa de ação",
+        "tonalRamp": [
+          "oklch(15.00% 0.18660 0.76)",
+          "oklch(26.43% 0.18660 0.76)",
+          "oklch(37.86% 0.18660 0.76)",
+          "oklch(49.29% 0.18660 0.76)",
+          "oklch(60.71% 0.18660 0.76)",
+          "oklch(72.14% 0.18660 0.76)",
+          "oklch(83.57% 0.18660 0.76)",
+          "oklch(95.00% 0.18660 0.76)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Rosa profundo",
+        "tonalRamp": [
+          "oklch(15.00% 0.15812 0.29)",
+          "oklch(26.43% 0.15812 0.29)",
+          "oklch(37.86% 0.15812 0.29)",
+          "oklch(49.29% 0.15812 0.29)",
+          "oklch(60.71% 0.15812 0.29)",
+          "oklch(72.14% 0.15812 0.29)",
+          "oklch(83.57% 0.15812 0.29)",
+          "oklch(95.00% 0.15812 0.29)"
+        ]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Plano frio",
+        "tonalRamp": [
+          "oklch(15.00% 0.00576 264.53)",
+          "oklch(26.43% 0.00576 264.53)",
+          "oklch(37.86% 0.00576 264.53)",
+          "oklch(49.29% 0.00576 264.53)",
+          "oklch(60.71% 0.00576 264.53)",
+          "oklch(72.14% 0.00576 264.53)",
+          "oklch(83.57% 0.00576 264.53)",
+          "oklch(95.00% 0.00576 264.53)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Papel",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0.00)",
+          "oklch(26.43% 0.00000 0.00)",
+          "oklch(37.86% 0.00000 0.00)",
+          "oklch(49.29% 0.00000 0.00)",
+          "oklch(60.71% 0.00000 0.00)",
+          "oklch(72.14% 0.00000 0.00)",
+          "oklch(83.57% 0.00000 0.00)",
+          "oklch(95.00% 0.00000 0.00)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Linha",
+        "tonalRamp": [
+          "oklch(15.00% 0.01220 259.82)",
+          "oklch(26.43% 0.01220 259.82)",
+          "oklch(37.86% 0.01220 259.82)",
+          "oklch(49.29% 0.01220 259.82)",
+          "oklch(60.71% 0.01220 259.82)",
+          "oklch(72.14% 0.01220 259.82)",
+          "oklch(83.57% 0.01220 259.82)",
+          "oklch(95.00% 0.01220 259.82)"
+        ]
+      },
+      "control": {
+        "role": "neutral",
+        "displayName": "Contorno de controle",
+        "tonalRamp": [
+          "oklch(15.00% 0.02263 256.74)",
+          "oklch(26.43% 0.02263 256.74)",
+          "oklch(37.86% 0.02263 256.74)",
+          "oklch(49.29% 0.02263 256.74)",
+          "oklch(60.71% 0.02263 256.74)",
+          "oklch(72.14% 0.02263 256.74)",
+          "oklch(83.57% 0.02263 256.74)",
+          "oklch(95.00% 0.02263 256.74)"
+        ]
+      },
+      "frame": {
+        "role": "neutral",
+        "displayName": "Frame institucional",
+        "tonalRamp": [
+          "oklch(15.00% 0.02827 257.53)",
+          "oklch(26.43% 0.02827 257.53)",
+          "oklch(37.86% 0.02827 257.53)",
+          "oklch(49.29% 0.02827 257.53)",
+          "oklch(60.71% 0.02827 257.53)",
+          "oklch(72.14% 0.02827 257.53)",
+          "oklch(83.57% 0.02827 257.53)",
+          "oklch(95.00% 0.02827 257.53)"
+        ]
+      },
+      "rose": {
+        "role": "primary",
+        "displayName": "Rosa de papel",
+        "tonalRamp": [
+          "oklch(15.00% 0.01511 345.55)",
+          "oklch(26.43% 0.01511 345.55)",
+          "oklch(37.86% 0.01511 345.55)",
+          "oklch(49.29% 0.01511 345.55)",
+          "oklch(60.71% 0.01511 345.55)",
+          "oklch(72.14% 0.01511 345.55)",
+          "oklch(83.57% 0.01511 345.55)",
+          "oklch(95.00% 0.01511 345.55)"
+        ]
+      },
+      "danger": {
+        "role": "primary",
+        "displayName": "Vermelho de remoção",
+        "tonalRamp": [
+          "oklch(15.00% 0.16945 17.57)",
+          "oklch(26.43% 0.16945 17.57)",
+          "oklch(37.86% 0.16945 17.57)",
+          "oklch(49.29% 0.16945 17.57)",
+          "oklch(60.71% 0.16945 17.57)",
+          "oklch(72.14% 0.16945 17.57)",
+          "oklch(83.57% 0.16945 17.57)",
+          "oklch(95.00% 0.16945 17.57)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Rosa de foco",
+        "tonalRamp": [
+          "oklch(15.00% 0.16646 353.64)",
+          "oklch(26.43% 0.16646 353.64)",
+          "oklch(37.86% 0.16646 353.64)",
+          "oklch(49.29% 0.16646 353.64)",
+          "oklch(60.71% 0.16646 353.64)",
+          "oklch(72.14% 0.16646 353.64)",
+          "oklch(83.57% 0.16646 353.64)",
+          "oklch(95.00% 0.16646 353.64)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Título de contexto",
+        "purpose": "Identifica a comparação atual."
+      },
+      "title": {
+        "displayName": "Título de seção",
+        "purpose": "Estrutura superfícies de trabalho."
+      },
+      "small-title": {
+        "displayName": "Título interno",
+        "purpose": "Organiza contribuições e registros."
+      },
+      "body": {
+        "displayName": "Base de leitura",
+        "purpose": "Base herdada pelos conteúdos e controles."
+      },
+      "label": {
+        "displayName": "Rótulo de ação",
+        "purpose": "Botões primários e secundários."
+      },
+      "text-action": {
+        "displayName": "Ação textual",
+        "purpose": "Operações auxiliares sublinhadas."
+      },
+      "score": {
+        "displayName": "Pontuação",
+        "purpose": "Percentual completo junto da alternativa; usa algarismos tabulares."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "control-color-transition",
+        "value": "background-color .16s ease-out, color .16s ease-out, border-color .16s ease-out",
+        "purpose": "Hover de botões e links; removido quando prefers-reduced-motion é reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "intermediate-max",
+        "value": "1150px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botão primário",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ação principal com rosa de ação e rótulo explícito.",
+      "html": "<button class=\"ds-primary\">Salvar conclusão</button>",
+      "css": ".ds-primary{font-family:Lato,Arial,sans-serif;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;border-radius:7px;padding:10px 15px;font-weight:700;font-size:12px;text-align:center;line-height:1.35;cursor:pointer;transition:background-color .16s ease-out,color .16s ease-out,border-color .16s ease-out;background:var(--accent,#ae185c);color:var(--paper,#fff);border:1px solid var(--accent,#ae185c)}.ds-primary:hover{background:var(--accent-hover,#8c134a)}.ds-primary:focus-visible{outline:3px solid var(--focus,#b23975);outline-offset:3px}.ds-primary:disabled{opacity:.5;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none!important;animation:none!important}}"
+    },
+    {
+      "name": "Botão secundário",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Ação auxiliar de papel com contorno e hover rosa leve.",
+      "html": "<button class=\"ds-secondary\">Editar contexto</button>",
+      "css": ".ds-secondary{font-family:Lato,Arial,sans-serif;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;border-radius:7px;padding:10px 15px;font-weight:700;font-size:12px;text-align:center;line-height:1.35;cursor:pointer;transition:background-color .16s ease-out,color .16s ease-out,border-color .16s ease-out;background:var(--paper,#fff);color:var(--ink,#19212e);border:1px solid #bdc7d3}.ds-secondary:hover{background:var(--rose,#f9edf3);border-color:#bc8ba3}.ds-secondary:focus-visible{outline:3px solid var(--focus,#b23975);outline-offset:3px}.ds-secondary:disabled{opacity:.5;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-secondary{transition:none!important;animation:none!important}}"
+    },
+    {
+      "name": "Ação textual",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "Ação sublinhada para operações auxiliares.",
+      "html": "<button class=\"ds-text-action\">Backup JSON</button>",
+      "css": ".ds-text-action{font-family:Lato,Arial,sans-serif;border:0;background:transparent;padding:7px 0;min-height:34px;font-size:12px;font-weight:400;line-height:1.5;color:var(--accent,#ae185c);text-decoration:underline;text-underline-offset:4px;text-align:left;cursor:pointer;transition:background-color .16s ease-out,color .16s ease-out,border-color .16s ease-out;}.ds-text-action:hover{color:var(--accent-hover,#8c134a)}.ds-text-action:focus-visible{outline:3px solid var(--focus,#b23975);outline-offset:3px}.ds-text-action:disabled{opacity:.5;cursor:not-allowed}@media(prefers-reduced-motion:reduce){.ds-text-action{transition:none!important;animation:none!important}}"
+    },
+    {
+      "name": "Campo de texto",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Rótulo acima de um campo de papel com contorno frio.",
+      "html": "<label class=\"ds-field\"><span>Nome da alternativa</span><input value=\"Estúdio Norte\"></label>",
+      "css": ".ds-field{font-family:Lato,Arial,sans-serif;display:flex;flex-direction:column;gap:6px;color:var(--ink,#19212e);margin-bottom:17px}.ds-field>span{font-size:12px;font-weight:700}.ds-field input{font-family:Lato,Arial,sans-serif;width:100%;border:1px solid var(--control,#b7c1cf);background:var(--paper,#fff);border-radius:6px;padding:10px 12px;min-height:43px;color:var(--ink,#19212e);font-size:14px;caret-color:var(--accent,#ae185c)}.ds-field input:focus-visible{outline:3px solid var(--focus,#b23975);outline-offset:3px}@media(max-width:760px){.ds-field input{font-size:16px}}"
+    },
+    {
+      "name": "Navegação de áreas",
+      "kind": "nav",
+      "refersTo": "area-navigation",
+      "description": "A área atual combina rosa, negrito e linha inferior.",
+      "html": "<nav class=\"ds-tabs\" aria-label=\"Áreas da comparação\"><button class=\"ds-tab\" aria-current=\"page\">Matriz</button><button class=\"ds-tab\">Análise</button><button class=\"ds-tab\">Registros</button><button class=\"ds-tab\">Arquivos</button></nav>",
+      "css": ".ds-tabs{display:flex;gap:28px;border-bottom:1px solid #bcc5d1}.ds-tab{font-family:Lato,Arial,sans-serif;background:transparent;border:0;border-bottom:3px solid transparent;color:var(--muted,#596474);font-size:13px;padding:12px 0;cursor:pointer;transition:background-color .16s ease-out,color .16s ease-out,border-color .16s ease-out;}.ds-tab:hover{color:var(--ink,#19212e)}.ds-tab[aria-current=page]{color:var(--accent,#ae185c);border-bottom-color:var(--accent,#ae185c);font-weight:700}.ds-tab:focus-visible{outline:3px solid var(--focus,#b23975);outline-offset:3px}@media(max-width:760px){.ds-tabs{gap:0;justify-content:space-between}.ds-tab{font-size:12px;padding:10px 9px}}@media(prefers-reduced-motion:reduce){.ds-tab{transition:none!important;animation:none!important}}"
+    },
+    {
+      "name": "Navegação de comparações",
+      "kind": "nav",
+      "refersTo": "comparison-navigation",
+      "description": "A comparação atual é uma superfície clara com borda e texto rosa.",
+      "html": "<nav class=\"ds-decision-list\" aria-label=\"Escolher comparação\"><button class=\"ds-decision-link\" aria-current=\"page\">Um espaço para trabalhar</button><button class=\"ds-decision-link\">Próxima comparação</button></nav>",
+      "css": ".ds-decision-list{display:flex;flex-direction:column;gap:4px}.ds-decision-link{font-family:Lato,Arial,sans-serif;background:transparent;color:var(--ink,#19212e);text-align:left;padding:12px;font-size:13px;line-height:1.5;overflow-wrap:anywhere;border-radius:7px;border:1px solid transparent;cursor:pointer;transition:background-color .16s ease-out,color .16s ease-out,border-color .16s ease-out;}.ds-decision-link:hover{background:#e6eaf0}.ds-decision-link[aria-current=page]{color:var(--accent,#ae185c);background:var(--paper,#fff);border-color:var(--line,#d8dde5);font-weight:700}.ds-decision-link:focus-visible{outline:3px solid var(--focus,#b23975);outline-offset:3px}@media(max-width:760px){.ds-decision-list{flex-direction:row;overflow-x:auto;gap:8px;padding:2px}.ds-decision-link{white-space:nowrap;padding:8px 11px;min-height:39px;font-size:12px}}@media(prefers-reduced-motion:reduce){.ds-decision-link{transition:none!important;animation:none!important}}"
+    },
+    {
+      "name": "Contador do caderno",
+      "kind": "chip",
+      "refersTo": "comparison-count",
+      "description": "Etiqueta neutra de contagem, sem ação associada.",
+      "html": "<span class=\"ds-count\">1</span>",
+      "css": ".ds-count{font-family:Lato,Arial,sans-serif;display:inline-block;font-size:11px;background:#e0e5ed;color:#495367;min-width:22px;text-align:center;border-radius:4px;padding:1px 5px}"
+    },
+    {
+      "name": "Superfície de trabalho",
+      "kind": "card",
+      "refersTo": "surface",
+      "description": "Papel plano, borda fina e títulos compactos para análise, registros e arquivos.",
+      "html": "<section class=\"ds-surface\"><h2>Como o resultado é calculado</h2><p>Somamos nota × peso para cada critério ativo.</p></section>",
+      "css": ".ds-surface{font-family:Lato,Arial,sans-serif;background:var(--paper,#fff);color:var(--ink,#19212e);border:1px solid var(--line,#d8dde5);border-radius:12px;padding:24px;min-width:0}.ds-surface h2{font-size:19px;line-height:1.35;margin:0;font-weight:700;text-wrap:balance;overflow-wrap:anywhere}.ds-surface p{font-size:13px;line-height:1.7;color:var(--muted,#596474);margin:13px 0 0;overflow-wrap:anywhere}@media(max-width:760px){.ds-surface{padding:20px}.ds-surface p{font-size:12px}}"
+    },
+    {
+      "name": "Nota e observação",
+      "kind": "custom",
+      "refersTo": "rating",
+      "description": "Seletor de zero a cinco; ausência tracejada e ação de observação separada.",
+      "html": "<div class=\"ds-rating-cell\" data-score=\"4\"><select class=\"ds-rating-select\" aria-label=\"Nota de Estúdio Norte em Concentração\"><option value=\"\">—</option><option>0</option><option>1</option><option>2</option><option>3</option><option selected>4</option><option>5</option></select><button class=\"ds-cell-note\" aria-label=\"Observação de Estúdio Norte em Concentração\">Observação</button></div>",
+      "css": ".ds-rating-cell{display:flex;flex-direction:column;align-items:center;gap:7px}.ds-rating-select{font-family:Lato,Arial,sans-serif;width:65px;height:43px;border:1px solid var(--control,#b7c1cf);border-radius:6px;background:var(--paper,#fff);padding:7px 10px;font-size:17px;font-weight:700;color:var(--ink,#19212e);font-variant-numeric:tabular-nums;cursor:pointer}.ds-rating-cell[data-score=\"5\"] .ds-rating-select,.ds-rating-cell[data-score=\"4\"] .ds-rating-select{background:#f8eaf2;border-color:#d4a7be;color:#922151}.ds-rating-cell[data-score=missing] .ds-rating-select{border-style:dashed;color:var(--muted,#596474);font-weight:400}.ds-cell-note{font-family:Lato,Arial,sans-serif;font-size:10px;color:var(--muted,#596474);padding:4px;background:transparent;border:0;text-decoration:underline;text-underline-offset:3px;min-height:28px;cursor:pointer;transition:background-color .16s ease-out,color .16s ease-out,border-color .16s ease-out;}.ds-cell-note:hover{color:var(--accent,#ae185c)}.ds-rating-select:focus-visible,.ds-cell-note:focus-visible{outline:3px solid var(--focus,#b23975);outline-offset:3px}@media(max-width:760px){.ds-rating-cell{gap:3px}.ds-rating-select{height:44px;width:68px}.ds-cell-note{min-height:32px}}@media(prefers-reduced-motion:reduce){.ds-cell-note{transition:none!important;animation:none!important}}"
+    },
+    {
+      "name": "Aviso de sessão",
+      "kind": "custom",
+      "refersTo": "notice",
+      "description": "Mensagem textual em papel rosa com borda suave.",
+      "html": "<div class=\"ds-notice\">Exemplo fictício aberto. Nenhuma informação real foi consultada.</div>",
+      "css": ".ds-notice{font-family:Lato,Arial,sans-serif;color:var(--ink,#19212e);background:var(--rose,#f9edf3);border:1px solid #dcb6ca;border-radius:8px;padding:13px 16px;font-size:13px;line-height:1.6}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Instrumento de comparação LOFRANO",
+    "overview": "A interface herda a marca, a tipografia local e a linguagem de controles dos aplicativos abertos da LOFRANO TECNOLOGIA. O enquadramento escuro reúne a identificação institucional; o espaço de trabalho combina fundo frio, papel branco e linhas discretas. O rosa orienta ações, localização atual e resultados sem transformar toda a superfície em destaque.\n\nA densidade serve à leitura de critérios, notas e justificativas. Títulos e números criam hierarquia dentro de uma ferramenta sóbria, sem imagens decorativas. Esta descrição registra o código e as capturas finais; o nome acima descreve o sistema observado, sem atribuir uma escolha de metáfora ou uma aprovação humana.",
+    "keyCharacteristics": [
+      "Lato local em pesos regular e negrito.",
+      "Frame institucional escuro e superfícies claras planas.",
+      "Rosa compartilhado por ações, navegação atual e pontuação.",
+      "Comparação tabular no computador e fichas completas no celular.",
+      "Estados ausentes e resultados incompletos escritos por extenso."
+    ],
+    "rules": [
+      {
+        "name": "The Rosa de Estado Rule",
+        "body": "Use o rosa nas ações, no item atual e na pontuação como no sistema existente; acompanhe estados com rótulo, forma ou posição, preservando seu significado textual.",
+        "section": "colors"
+      },
+      {
+        "name": "The Número com Contexto Rule",
+        "body": "Pontuação sempre permanece junto da alternativa e do texto de posição ou de incompletude; não substitua esse contexto por cor.",
+        "section": "typography"
+      },
+      {
+        "name": "The Conteúdo Completo Rule",
+        "body": "A adaptação para fichas preserva os rótulos, as descrições, a escala e o significado das notas; não reduza a comparação a números isolados.",
+        "section": "layout"
+      }
+    ],
+    "dos": [
+      "**Do** preservar Lato local, frame escuro, plano frio e papel como base comum da família LOFRANO.",
+      "**Do** manter o resultado junto da alternativa e explicar por texto notas ausentes, intervalos e empates.",
+      "**Do** preservar descrições, pesos, escala e observações na passagem da tabela para as fichas.",
+      "**Do** manter foco visível e sua restauração após atualizar uma nota.",
+      "**Do** construir separação com tonalidade, borda e espaçamento, como nas superfícies existentes."
+    ],
+    "donts": [
+      "**Don't** transformar a paleta de estados em uma segunda identidade de marca.",
+      "**Don't** exibir posição de ranking enquanto houver notas ativas ausentes.",
+      "**Don't** tratar a pontuação como escolha automática ou recomendação do aplicativo.",
+      "**Don't** converter descrições de critério ou ajuda de escala em conteúdo exclusivo do computador.",
+      "**Don't** registrar intenções de animação, aprovação humana ou certificação geral de acessibilidade como fatos desta implementação."
+    ]
+  }
+}

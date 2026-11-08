@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "decisions": [
+    {
+      "id": "espaco-de-trabalho",
+      "title": "Um espaço para trabalhar",
+      "question": "Qual espaço fictício combina melhor com uma rotina de trabalho concentrado?",
+      "alternatives": [
+        {
+          "id": "estudio-norte",
+          "name": "Estúdio Norte",
+          "notes": "Espaço fictício com ambiente silencioso."
+        },
+        {
+          "id": "sala-jardim",
+          "name": "Sala Jardim",
+          "notes": "Espaço fictício com acesso simples e horários flexíveis."
+        },
+        {
+          "id": "espaco-central",
+          "name": "Espaço Central",
+          "notes": "Espaço fictício com estrutura compartilhada."
+        }
+      ],
+      "criteria": [
+        {
+          "id": "concentracao",
+          "name": "Concentração",
+          "weight": 40,
+          "description": "Quanto o ambiente ajuda a manter o foco."
+        },
+        {
+          "id": "acesso",
+          "name": "Acesso",
+          "weight": 25,
+          "description": "Facilidade de chegar no horário pretendido."
+        },
+        {
+          "id": "estrutura",
+          "name": "Estrutura",
+          "weight": 20,
+          "description": "Adequação dos recursos à rotina descrita."
+        },
+        {
+          "id": "flexibilidade",
+          "name": "Flexibilidade",
+          "weight": 15,
+          "description": "Liberdade para ajustar os dias e horários."
+        }
+      ],
+      "ratings": [
+        {
+          "alternativeId": "estudio-norte",
+          "criterionId": "concentracao",
+          "value": 5,
+          "note": ""
+        },
+        {
+          "alternativeId": "estudio-norte",
+          "criterionId": "acesso",
+          "value": 3,
+          "note": ""
+        },
+        {
+          "alternativeId": "estudio-norte",
+          "criterionId": "estrutura",
+          "value": 4,
+          "note": ""
+        },
+        {
+          "alternativeId": "estudio-norte",
+          "criterionId": "flexibilidade",
+          "value": 3,
+          "note": ""
+        },
+        {
+          "alternativeId": "sala-jardim",
+          "criterionId": "concentracao",
+          "value": 4,
+          "note": ""
+        },
+        {
+          "alternativeId": "sala-jardim",
+          "criterionId": "acesso",
+          "value": 5,
+          "note": "Nota fictícia para demonstrar a observação de uma célula."
+        },
+        {
+          "alternativeId": "sala-jardim",
+          "criterionId": "estrutura",
+          "value": 3,
+          "note": ""
+        },
+        {
+          "alternativeId": "sala-jardim",
+          "criterionId": "flexibilidade",
+          "value": 4,
+          "note": ""
+        },
+        {
+          "alternativeId": "espaco-central",
+          "criterionId": "concentracao",
+          "value": 3,
+          "note": ""
+        },
+        {
+          "alternativeId": "espaco-central",
+          "criterionId": "acesso",
+          "value": 4,
+          "note": ""
+        },
+        {
+          "alternativeId": "espaco-central",
+          "criterionId": "estrutura",
+          "value": 5,
+          "note": ""
+        },
+        {
+          "alternativeId": "espaco-central",
+          "criterionId": "flexibilidade",
+          "value": 5,
+          "note": ""
+        }
+      ],
+      "choice": {
+        "alternativeId": "sala-jardim",
+        "reason": "Nesta comparação fictícia, o acesso e a flexibilidade equilibraram a necessidade de concentração."
+      },
+      "snapshots": [
+        {
+          "id": "primeira-analise",
+          "label": "Primeira análise fictícia",
+          "createdAt": "2026-11-08T12:00:00.000Z",
+          "matrix": {
+            "title": "Um espaço para trabalhar",
+            "question": "Qual espaço fictício combina melhor com uma rotina de trabalho concentrado?",
+            "alternatives": [
+              {
+                "id": "estudio-norte",
+                "name": "Estúdio Norte",
+                "notes": "Espaço fictício com ambiente silencioso."
+              },
+              {
+                "id": "sala-jardim",
+                "name": "Sala Jardim",
+                "notes": "Espaço fictício com acesso simples e horários flexíveis."
+              },
+              {
+                "id": "espaco-central",
+                "name": "Espaço Central",
+                "notes": "Espaço fictício com estrutura compartilhada."
+              }
+            ],
+            "criteria": [
+              {
+                "id": "concentracao",
+                "name": "Concentração",
+                "weight": 40,
+                "description": "Quanto o ambiente ajuda a manter o foco."
+              },
+              {
+                "id": "acesso",
+                "name": "Acesso",
+                "weight": 25,
+                "description": "Facilidade de chegar no horário pretendido."
+              },
+              {
+                "id": "estrutura",
+                "name": "Estrutura",
+                "weight": 20,
+                "description": "Adequação dos recursos à rotina descrita."
+              },
+              {
+                "id": "flexibilidade",
+                "name": "Flexibilidade",
+                "weight": 15,
+                "description": "Liberdade para ajustar os dias e horários."
+              }
+            ],
+            "ratings": [
+              {
+                "alternativeId": "estudio-norte",
+                "criterionId": "concentracao",
+                "value": 5,
+                "note": ""
+              },
+              {
+                "alternativeId": "estudio-norte",
+                "criterionId": "acesso",
+                "value": 3,
+                "note": ""
+              },
+              {
+                "alternativeId": "estudio-norte",
+                "criterionId": "estrutura",
+                "value": 4,
+                "note": ""
+              },
+              {
+                "alternativeId": "estudio-norte",
+                "criterionId": "flexibilidade",
+                "value": 3,
+                "note": ""
+              },
+              {
+                "alternativeId": "sala-jardim",
+                "criterionId": "concentracao",
+                "value": 4,
+                "note": ""
+              },
+              {
+                "alternativeId": "sala-jardim",
+                "criterionId": "acesso",
+                "value": 5,
+                "note": "Nota fictícia para demonstrar a observação de uma célula."
+              },
+              {
+                "alternativeId": "sala-jardim",
+                "criterionId": "estrutura",
+                "value": 3,
+                "note": ""
+              },
+              {
+                "alternativeId": "sala-jardim",
+                "criterionId": "flexibilidade",
+                "value": 4,
+                "note": ""
+              },
+              {
+                "alternativeId": "espaco-central",
+                "criterionId": "concentracao",
+                "value": 3,
+                "note": ""
+              },
+              {
+                "alternativeId": "espaco-central",
+                "criterionId": "acesso",
+                "value": 4,
+                "note": ""
+              },
+              {
+                "alternativeId": "espaco-central",
+                "criterionId": "estrutura",
+                "value": 5,
+                "note": ""
+              },
+              {
+                "alternativeId": "espaco-central",
+                "criterionId": "flexibilidade",
+                "value": 5,
+                "note": ""
+              }
+            ],
+            "choice": {
+              "alternativeId": "sala-jardim",
+              "reason": "Nesta comparação fictícia, o acesso e a flexibilidade equilibraram a necessidade de concentração."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

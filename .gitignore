@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.impeccable/*
+!.impeccable/design.json
+!.impeccable/surfaces/
+.impeccable/surfaces/*
+!.impeccable/surfaces/workspace.md
+.openai/
+.codex/
+.env
+.env.*
+*.log
+.DS_Store
+coverage/
