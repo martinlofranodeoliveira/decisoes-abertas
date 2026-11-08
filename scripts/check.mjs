@@ -18,6 +18,9 @@ async function checkFiles(directory) {
   }
 }
 await checkFiles(root);
+for (const notice of ['LICENSE.txt', 'THIRD_PARTY_NOTICES.md', 'assets/LATO-LICENSE.txt']) {
+  if (!(await readFile(path.join(root, 'dist', notice), 'utf8')).trim()) throw Error('Aviso de licença ausente na distribuição estática.');
+}
 const html = await readFile(path.join(root, 'dist/index.html'), 'utf8');
 for (const match of html.matchAll(/(?:src|href)="([^"#][^"]*)"/g)) {
   const url = match[1]; if (/^https?:/.test(url)) continue;

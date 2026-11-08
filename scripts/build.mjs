@@ -7,6 +7,8 @@ const dist = path.join(root, 'dist');
 await rm(dist, { recursive: true, force: true });
 await mkdir(dist, { recursive: true });
 for (const folder of ['assets']) await cp(path.join(root, folder), path.join(dist, folder), { recursive: true });
+await cp(path.join(root, 'LICENSE'), path.join(dist, 'LICENSE.txt'));
+await cp(path.join(root, 'THIRD_PARTY_NOTICES.md'), path.join(dist, 'THIRD_PARTY_NOTICES.md'));
 let html = await readFile(path.join(root, 'index.html'), 'utf8');
 if (process.env.SITE_URL) {
   const url = new URL(process.env.SITE_URL);
